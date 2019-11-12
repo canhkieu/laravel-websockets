@@ -1,6 +1,6 @@
 <?php
 
-namespace CanhKieu\Providers;
+namespace CanhKieu\LaravelWebSockets;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Route;
@@ -17,7 +17,7 @@ use BeyondCode\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as Authoriz
 use BeyondCode\LaravelWebSockets\Statistics\Http\Middleware\Authorize as AuthorizeStatistics;
 use BeyondCode\LaravelWebSockets\Statistics\Http\Controllers\WebSocketStatisticsEntriesController;
 
-use CanhKieu\Console\Commands\StartWebSocketServer;
+use CanhKieu\LaravelWebSockets\Console\Commands\StartWebSocketServer;
 use BeyondCode\LaravelWebSockets\Console\CleanStatistics;
 
 class WebSocketsServiceProvider extends ServiceProvider

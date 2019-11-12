@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Statistics\Logger;
+namespace CanhKieu\LaravelWebSockets\Statistics\Logger;
 
 use Clue\React\Buzz\Browser;
 use Ratchet\ConnectionInterface;

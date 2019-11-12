@@ -26,5 +26,12 @@
         "psr-4": {
             "CanhKieu\\LaravelWebSockets\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CanhKieu\\LaravelWebSockets\\WebSocketsServiceProvider"
+            ]
+        }
     }
 }

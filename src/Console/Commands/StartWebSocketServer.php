@@ -1,6 +1,6 @@
 <?php
 
-namespace CanhKieu\Console\Commands;
+namespace CanhKieu\LaravelWebSockets\Console\Commands;
 
 use React\Socket\Connector;
 use Clue\React\Buzz\Browser;
@@ -18,7 +18,7 @@ use BeyondCode\LaravelWebSockets\Server\Logger\ConnectionLogger;
 use BeyondCode\LaravelWebSockets\Server\Logger\WebsocketsLogger;
 use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
 use BeyondCode\LaravelWebSockets\Statistics\Logger\StatisticsLogger as StatisticsLoggerInterface;
-use CanhKieu\Statistics\Logger\HttpStatisticsLogger;
+use CanhKieu\LaravelWebSockets\Statistics\Logger\HttpStatisticsLogger;
 
 class StartWebSocketServer extends Command
 {
